@@ -70,6 +70,8 @@ body {
   height: 50px;
   background: red;
   position: absolute;
+  /*animation-name: Move;
+  animation-duration: infinite;*/
 }
 
 #btn {
@@ -80,3 +82,22 @@ body {
   background-color: darkcyan;
   cursor: pointer;
 }
+
+/*@keyframes Move {
+  0% {
+    left: 0px;
+    top: Opx;
+  }
+    50% {
+      top: 0px;
+      left: 150px;   
+    }
+    75% {
+    top: 150px;
+    left: 150px;
+  }
+  100% {
+    top: 0px;
+    left: 150px;
+  }
+}*/
